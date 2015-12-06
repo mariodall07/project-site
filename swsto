@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="cssnew">
+	<link rel="stylesheet" href="cssnew2">
+
+		<title>
+			Naruto Official Page
+		</title>
+		
+	</head>
+	
+		
+	<body>
+	
+	<div class="col-lg-6 col-sm-6">
+    <div class="card hovercard">
+        
+        <div class="useravatar">
+            <img alt="" src="http://orig06.deviantart.net/27e9/f/2011/313/d/f/naruto__render___png_by_linhchanx-d4fmr5i.png">
+        </div>
+        <div class="card-info"> <span class="card-title">Uzumaki Naruto</span>
+
+        </div>
+    </div>
+    <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                <div class="hidden-xs">Biography</div>
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                <div class="hidden-xs">Abilities</div>
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <div class="hidden-xs">Appearence</div>
+            </button>
+        </div>
+    </div>
+
+    <div class="well">
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="tab1">
+          <h3>Naruto Uzumaki is a shinobi of Konohagakure. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be ostracised by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage. In the following years, through many hardships and ordeals, he became a capable ninja regarded as a hero both by the villagers, and soon after, the rest of the world. He soon proved to be one of the main factors in winning the Fourth Shinobi World War, leading him to achieve his dream and become the village's Seventh Hokage (七代目火影, Nanadaime Hokage, Literally meaning: Seventh Fire Shadow). </h3>
+        </div>
+        <div class="tab-pane fade in" id="tab2">
+          <h3>This is tab 2</h3>
+        </div>
+        <div class="tab-pane fade in" id="tab3">
+          <h3>This is tab 3</h3>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
+	<script src="js/bootstrap.min.js"/>
+	<script>
+	$(document).ready(function() {
+		$(".btn-pref .btn").click(function () {
+			$(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
+			// $(".tab").addClass("active"); // instead of this do the below 
+			$(this).removeClass("btn-default").addClass("btn-primary");   
+		});
+	});
+	</script>
+
+	
+	</body>
+	
+</html>

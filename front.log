@@ -2,6 +2,7 @@
 <html>
 
 	<head>
+	<meta charset="utf-8"> 
 	<link rel="stylesheet" href="css/bootstrap.min">
 	<link rel="stylesheet" href="cssnew">
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
@@ -47,7 +48,7 @@
 				
                   <img src="assets/1.png">    
                 </div>
-					<p class="lead"><a class="btn btn-lg btn-info" href="new 1.log">Chapters</a></p>
+					<p class="lead"><a class="btn btn-lg btn-info" href="arcs.log">Chapters</a></p>
                 <div class="col-sm-4">
                     <img src="http://img-cache.cdn.gaiaonline.com/c0045c7a7c04f4b26281da289e8799d8/http://i246.photobucket.com/albums/gg91/_McLovin/Naruto_Shippuden2_mediano.png">    
                 </div>
